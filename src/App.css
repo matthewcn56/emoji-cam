@@ -1,0 +1,92 @@
+.App {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #fdeeee;
+  width: 100vw;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.keyboard-display {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.space {
+  background-color: #a7d7fa;
+  height: 30px;
+  width: 33px;
+  margin: 10px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.backspace {
+  background-color: red;
+  height: 30px;
+  width: 33px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  vertical-align: text-bottom;
+  margin: 10px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.text-display {
+  background-color: white;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  color: black;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+body {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+pre {
+  white-space: pre-wrap;
+}
